@@ -1,1 +1,1 @@
-# javascript-tabbedcomponent
+Simple tabbed component with javascript and css

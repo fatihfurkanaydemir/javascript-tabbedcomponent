@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Tabbed Component</h2>
+        <h3 class="section__header">
+          Example tabbed component with javascript
+        </h3>
+      </div>
+
+      <div class="tabbed">
+        <div class="tabbed__tab-container">
+          <button
+            class="btn tabbed__tab tabbed__tab--1 tabbed__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Lorem
+          </button>
+          <button class="btn tabbed__tab tabbed__tab--2" data-tab="2">
+            <span>02</span>Ipsum
+          </button>
+          <button class="btn tabbed__tab tabbed__tab--3" data-tab="3">
+            <span>03</span>Dolor
+          </button>
+        </div>
+        <div class="tabbed__content tabbed__content--1 tabbed__content--active">
+          <div class="tabbed__icon tabbed__icon--1"></div>
+          <h5 class="tabbed__header">
+            Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="tabbed__content tabbed__content--2">
+          <div class="tabbed__icon tabbed__icon--2"></div>
+          <h5 class="tabbed__header">
+            Sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </h5>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+        <div class="tabbed__content tabbed__content--3">
+          <div class="tabbed__icon tabbed__icon--3"></div>
+          <h5 class="tabbed__header">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </h5>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
